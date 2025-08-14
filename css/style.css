@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  color: #707070;
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.wrapper {
+  max-width: 1000px;
+  padding-inline: 20px;
+  margin: auto;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 35px;
+}
+
+#header .logo {
+  max-width: 190px;
+  line-height: 0;
+}
+
+#header .logo a {
+  display: block;
+}
+
+#header .navi {
+  display: flex;
+  align-items: center;
+}
+
+#header .navi li {
+  font-size: 1.4rem;
+  margin-left: 40px;
+}
+
+.mainvisual {
+  margin-bottom: 80px;
+}
+
+.introduction {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.catchphrase {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.text {
+  font-size: 1.4rem;
+}
+
+.section-title {
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.section-title .en {
+  font-size: 4.0rem;
+  display: block;
+}
+
+.section-title .ja {
+  font-size: 1.4rem;
+  display: block;
+}
+#profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+#profile .img {
+  width: 50%;
+}
+
+#profile .detail {
+  width: 50%;
+  padding-left: 80px;
+}
+
+#profile .detail p {
+  line-height: 2;
+}
+
+#latte {
+  margin-bottom: 120px;
+}
+
+#latte .works-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#latte .works-list li {
+  width: 32%;
+  margin: 0 2% 2% 0;
+}
+
+#latte .works-list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+#latte .works-list li img {
+  object-fit: cover;
+  aspect-ratio: 4/3;
+}
+
+#footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  #header {
+    padding-block: 25px;
+  }
+
+  #header .logo {
+    max-width: 120px;
+  }
+
+  .mainvisual {
+    margin-bottom: 50px;
+  }
+
+  .introduction {
+    margin-bottom: 50px;
+  }
+
+  .catchphrase {
+    font-size: 1.6rem;
+  }
+
+  .text {
+    text-align: left;
+  }
+
+  .section-title {
+    margin-bottom: 25px;
+  }
+
+  .section-title .en {
+    font-size: 3.2rem;
+  }
+
+  #profile {
+    flex-direction: column-reverse;
+    margin-bottom: 60px;
+  }
+
+  #profile .img {
+    width: 100%;
+  }
+
+  #profile .detail {
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+
+  #latte {
+    margin-bottom: 60px;
+  }
+
+  #latte .works-list {
+    flex-direction: column;
+  }
+
+  #latte .works-list li {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+}
+

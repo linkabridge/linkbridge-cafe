@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="220" height="35" viewBox="0 0 220 35">
+  <title>L¡nkBr¡dge Cafe</title>
+  <rect width="100%" height="100%" fill="none"/>
+  <g fill="#3E2723">
+    <text x="50%" y="50%"
+          font-family="Inter, 'Noto Sans JP', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, 'Hiragino Sans', 'Noto Sans', sans-serif"
+          font-weight="300"
+          font-size="22"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          letter-spacing="0">
+      L¡nkBr¡dge Cafe
+    </text>
+  </g>
+</svg>
