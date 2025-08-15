@@ -101,11 +101,17 @@ a:hover {
 
 #profile .img {
   width: 50%;
+  text-align: center;
+}
+
+#profile .img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 #profile .detail {
   width: 50%;
-  padding-left: 80px;
 }
 
 #profile .detail p {
